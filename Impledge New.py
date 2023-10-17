@@ -4,7 +4,6 @@ Created on Tue Oct 17 17:38:59 2023
 
 @author: Samarth
 """
-
 import time
 def myfun(content):
     compound_words = []
@@ -61,11 +60,3 @@ try:
 except FileNotFoundError as e:
     print(e)
 print("Outputs written in output file successfully")
-
- 
-
-
-    
-
-
-
