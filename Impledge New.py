@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 17 17:38:59 2023
-
-@author: Samarth
-"""
 import time
 def myfun(content):
     compound_words = []
@@ -22,15 +16,6 @@ def myfun(content):
             second_largest = word
     
     return largest, second_largest
-def compound(content):
-    for word in FileContent:
-        first = content[:word]
-        second = content[word:]
-    if first in content and second in content:
-        return 1
-    else:
-        return 0
-    
 beg = time.time()
 FileContent = input("Enter input file path:")
 try:
